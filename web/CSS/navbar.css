@@ -1,0 +1,158 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Jul, 2018, 6:54:13 PM
+    Author     : Anshu
+*/
+
+@media screen and (min-width: 601px) {
+    .tx {
+      font-size: 30px;
+    }
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .tx {
+      font-size: 13px;
+    }
+    
+  }
+  @media screen and (min-width: 985px) {
+    
+    .panel-default {
+        opacity: 0.9;
+        margin-top:40%;
+    }
+  }
+  @media screen and (max-width: 984px) {
+    
+    .panel-default {
+        opacity: 0.9;
+        margin-top:25%;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    
+    .panel-default {
+        opacity: 0.9;
+        margin-top:20%;
+    }
+  }
+
+  .navbar-inner {
+      opacity: 0.5;
+
+  }
+  .footer {
+      position: fixed;
+      left: 1;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      text-align: center;
+  }
+  #mydiv {
+      position:absolute;
+      top: 50%;
+      left: 50%;
+      width:30em;
+      height:18em;
+      margin-top: -9em; /*set to a negative number 1/2 of your height*/
+      margin-left: -15em; /*set to a negative number 1/2 of your width*/
+      text-align: center;
+
+  }
+  #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+      overflow: hidden;
+
+      top: 50%;
+      transform: translateY(-50%);
+  }
+	.login-form {
+		width: 340px;
+    	margin: 50px auto;
+	}
+    .login-form form {
+    	margin-bottom: 15px;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+    .login-form h2 {
+        margin: 0 0 15px;
+    }
+    .form-control, .btn {
+        min-height: 38px;
+        border-radius: 2px;
+    }
+    .btn {        
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #myBackgroundImg {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+      overflow: hidden;
+      z-index: -1;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+  .stepwizard-step p {
+    margin-top: 10px;
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-order: 0;
+
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
